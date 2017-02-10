@@ -649,7 +649,6 @@ instance_groups:
     properties:
       diego:
         route_emitter:
-          nats: *nats_properties
           bbs:
             ca_cert: "((diego_bbs_client.ca))"
             client_cert: "((diego_bbs_client.certificate))"
